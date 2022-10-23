@@ -60,7 +60,7 @@ $("#myForm").on("change", "textarea, select", function() {
             CheckControlValueStatus($(this));
 });
 $('#myForm input').on('change', function() {
-  alert($('input[name=vehicle]:checked', '#myForm').val());
+  //alert($('input[name=vehicle]:checked', '#myForm').val());
   CheckControlValueStatus($(this));
 });
 
